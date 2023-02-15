@@ -48,4 +48,4 @@ KITTYPOOL
 https://www.youtube.com/@kittypool
 
 # リリースノート
-2023.2.15 - 1.0.0 公開
+2023.2.16 - 1.0.0 公開
