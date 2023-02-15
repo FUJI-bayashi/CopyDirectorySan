@@ -30,6 +30,10 @@ Windows 10 32bit及び64bit で、ゲームエンジン「UNITY」のプロジ�
 このアプリケーションはexeファイル及びconfigファイルのみで動作し、（保存先フォルダへのコピー処理を除けば）それ以外の領域に一切の影響を及ぼしません。
 インターネットへの接続も行われていません。
 
+ご不安な場合はGithubでソースコードをご確認ください。
+
++ [プロジェクトのルートフォルダ](https://github.com/FUJI-bayashi/CopyDirectorySan/tree/master/CopyDirectorySan) / [主な処理が記述されたcsファイル](https://github.com/FUJI-bayashi/CopyDirectorySan/blob/master/CopyDirectorySan/Form1.cs)
+
 # ライセンス
 一般的に個人開発の無料アプリケーションに採用されることが多いとされる「MITライセンス」を採用しました。
 内容はLICENSE.txtに記載のあるとおりですが、要約するとMIT Licenseとは次のようなライセンスです。
@@ -40,6 +44,7 @@ Windows 10 32bit及び64bit で、ゲームエンジン「UNITY」のプロジ�
 
 # 開発者
 KITTYPOOL
+
 https://www.youtube.com/@kittypool
 
 # リリースノート
