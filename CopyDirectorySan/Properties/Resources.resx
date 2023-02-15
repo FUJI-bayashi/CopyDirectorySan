@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Balloon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Balloon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Holi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOLI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconHoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconHoli.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kittypool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpehereMidJ_Comp-export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="String_DeleteTemplateWarning" xml:space="preserve">
+    <value>現在選択されているテンプレートが削除されます。
+この処理は元に戻せません。
+現在のテンプレートを削除しますか？</value>
+  </data>
+  <data name="String_Error_ExistsDest" xml:space="preserve">
+    <value>保存先フォルダ内に作ろうとした名前のフォルダが既に存在し、
+かつ上書きが許可されていません。
+既にコピー済みの可能性があります。
+
+このエラーを回避するためには、（上書きを許可するのではなく）
+別の保存先フォルダを指定することが推奨されます。</value>
+  </data>
+  <data name="String_Error_NotExists_TextBoxDest" xml:space="preserve">
+    <value>指定した「保存先フォルダ」が見つかりませんでした。</value>
+  </data>
+  <data name="String_Error_NotExists_TextBoxSource" xml:space="preserve">
+    <value>指定した「コピーするフォルダ」が見つかりませんでした。</value>
+  </data>
+  <data name="String_Error_Null_TextBoxDest" xml:space="preserve">
+    <value>保存先フォルダが選択されていません。</value>
+  </data>
+  <data name="String_Error_Null_TextBoxSource" xml:space="preserve">
+    <value>コピーするフォルダが選択されていません。</value>
+  </data>
+  <data name="String_Error_SameName" xml:space="preserve">
+    <value>コピーするフォルダの親フォルダが保存先に指定され、
+かつ「そのままコピーする」が選ばれています。
+つまり元ファイルに同ファイルを上書きするかたちになります。
+恐いのでやめてください。そんなことは。</value>
+  </data>
+  <data name="String_Error_SamePath" xml:space="preserve">
+    <value>コピーするフォルダと保存先フォルダに同じパスを指定すると
+予期せぬ問題が起きかねません。
+恐いのでやめてください。</value>
+  </data>
+  <data name="String_Holi1" xml:space="preserve">
+    <value>はい？</value>
+  </data>
+  <data name="String_Holi10" xml:space="preserve">
+    <value>…わかりました。
+私の名前はホリィ。ナイピン・ケン市役所マモノ課の部長職として、
+マモノ研究所の所長を兼任しています。
+基本的に研究所の宿舎に寝泊まりしているので家にはたまにしか帰りません。
+目のことは言いたくないのできかないでください。</value>
+  </data>
+  <data name="String_Holi11" xml:space="preserve">
+    <value>このスーツは対マモノ用軽戦闘スーツです。
+私が念じれば、いまあなたに向けられている胸の穴からビームを撃てます。
+私は常にチャージ状態にしているのでいますぐにでも撃てます。
+ビームを。</value>
+  </data>
+  <data name="String_Holi12" xml:space="preserve">
+    <value>あの、コピーしないなら通常業務に戻ってもいいですか？</value>
+  </data>
+  <data name="String_Holi13" xml:space="preserve">
+    <value>…帰りますからね。お疲れ様でした。</value>
+  </data>
+  <data name="String_Holi2" xml:space="preserve">
+    <value>なんですか？</value>
+  </data>
+  <data name="String_Holi3" xml:space="preserve">
+    <value>私ですか？　私はホリィです。</value>
+  </data>
+  <data name="String_Holi4" xml:space="preserve">
+    <value>あ、このソフトの安全性について知りたいんですね。
+
+このソフトは開発者が毎日行っているデータのバックアップ作業を
+効率化するためだけに作成されたものです。
+インターネット接続を行わず、exeファイルとconfigファイルのみで
+処理が完結するよう設計されていて、安心してお使いいただけます。</value>
+  </data>
+  <data name="String_Holi5" xml:space="preserve">
+    <value>コピーによって実行される処理は
+1．コピーするフォルダを保存先フォルダにコピーする。
+2．exeファイルと同じ場所にあるconfigファイルにテンプレート情報を保存する。
+というものです。
+
+安全性を高めるために余計な機能は追加しませんでした。</value>
+  </data>
+  <data name="String_Holi6" xml:space="preserve">
+    <value>しないんですか？
+コピー。</value>
+  </data>
+  <data name="String_Holi7" xml:space="preserve">
+    <value>私に話しかけてますか？</value>
+  </data>
+  <data name="String_Holi8" xml:space="preserve">
+    <value>えーと、私はただこのソフトの使い方を説明しているだけです。
+私自身のことは気にしないでください。</value>
+  </data>
+  <data name="String_Holi9" xml:space="preserve">
+    <value>私のことを知りたいなら、右上のKITTYPOOLのアイコンをクリックして、
+このソフトの開発者のYouTubeチャンネルを見てください。
+
+…ほんと、なんなんだろ。</value>
+  </data>
+  <data name="String_MouseEnter_CopyStyle1" xml:space="preserve">
+    <value>「フォルダ名の先頭にコピーした【年月日】を付与する」を選ぶと、
+コピー後のフォルダ名が
+
+　yyyyMMdd_元のフォルダ名
+
+になります。</value>
+  </data>
+  <data name="String_MouseEnter_CopyStyle2" xml:space="preserve">
+    <value>「フォルダ名の先頭にコピーした【年月日時分秒】を付与する」を選ぶと、
+コピー後のフォルダ名が
+
+　yyyyMMddHHmmss_元のフォルダ名
+
+になります。</value>
+  </data>
+  <data name="String_MouseEnter_CopyStyle3" xml:space="preserve">
+    <value>「【年月日】フォルダを作成してそのなかにコピーする」を選ぶと、
+保存先フォルダ内に
+
+yyyyMMdd
+
+という名前のフォルダを作り、そのなかにコピーします。</value>
+  </data>
+  <data name="String_MouseEnter_CopyStyle4" xml:space="preserve">
+    <value>「【年月日時分秒】フォルダを作成してそのなかにコピーする」を選ぶと、
+保存先フォルダ内に
+
+yyyyMMddHHmmss
+
+という名前のフォルダを作り、そのなかにコピーします。</value>
+  </data>
+  <data name="String_MouseEnter_CopyStyle5" xml:space="preserve">
+    <value>「そのままコピーする」を選ぶと、
+コピーするフォルダがそのまま保存先フォルダに保存されます。</value>
+  </data>
+  <data name="String_MouseEnter_Credit" xml:space="preserve">
+    <value>開発者は「KITTYPOOL」です。
+クリックするとKITTYPOOLのYouTubeチャンネルが開きます。</value>
+  </data>
+  <data name="String_MouseEnter_Holi" xml:space="preserve">
+    <value>フォルダコピーさんは、指定したフォルダをコピーするだけのソフトです。
+コピーしたいフォルダと保存先フォルダを指定して「コピーする」を押してください。
+パスは直接入力できますが、パスが存在しなければ実行時にエラーになります。
+
+コピーすると、現在選択されているテンプレートにパスが保存されます。
+テンプレートは次回起動時に自動的にロードされます。
+
+インターネット接続やconfigファイル以外への書き込みを行わない安心設計です。
+わからない機能があれば説明するのでカーソルを合わせてください。</value>
+  </data>
+  <data name="String_MouseEnter_OpenDestDirAfterComp" xml:space="preserve">
+    <value>「完了後に保存先フォルダを開く」にチェックすると…
+…そうなります。</value>
+  </data>
+  <data name="String_MouseEnter_Overwrite" xml:space="preserve">
+    <value>チェックを外すと、作成しようとしたフォルダと同名のフォルダが
+既に保存先にある場合にコピーが実行されなくなります。
+よくわからなければチェックを外しておくことをオススメします。
+
+チェックを入れると、
+同名フォルダが存在していてもコピーを実行して上書き保存します。
+末尾に(1)を付与して別に保存する…といったよくある機能ではなく、
+完全に上書きされるので注意してください。</value>
+  </data>
+  <data name="String_MouseEnter_Path" xml:space="preserve">
+    <value>「参照」ボタンでフォルダを指定するとパスが表示されます。
+パスの直接入力、フォルダのドラッグ＆ドロップも可能です。</value>
+  </data>
+  <data name="String_MouseEnter_ProgressBar" xml:space="preserve">
+    <value>コピーを実行すると進捗が可視化されるバーです。
+これを「プログレスバー」と言います。言えるとかっこいいので覚えておいてください。
+「プログレスバー」。</value>
+  </data>
+  <data name="String_MouseEnter_Template" xml:space="preserve">
+    <value>「テンプレート」には、コピーした際にフォルダパスと設定が自動保存されます。
+不要なら気にする必要のない機能です。
+
+もしあなたがテンプレート機能を活用するなら、
+「テンプレートはコピーを実行するたびに上書きされる」
+という点に注意してください。
+コピーする前に「どのテンプレートを選んでいるか」を確認しましょう。</value>
+  </data>
+  <data name="String_Progress_Comp" xml:space="preserve">
+    <value>コピーが正常に完了しました。</value>
+  </data>
+  <data name="String_Progress_Copying" xml:space="preserve">
+    <value>ファイルをコピー中です。</value>
+  </data>
+  <data name="String_RunCopy_Comp" xml:space="preserve">
+    <value>コピー完了</value>
+  </data>
+  <data name="String_RunCopy_Copying" xml:space="preserve">
+    <value>コピー中...</value>
+  </data>
+  <data name="String_RunCopy_Run" xml:space="preserve">
+    <value>コピーする</value>
+  </data>
+  <data name="String_RunCopy_Standby" xml:space="preserve">
+    <value>コピーできます</value>
+  </data>
+</root>
